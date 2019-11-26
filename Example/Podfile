@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QLPageScroll_Example' do
+  pod 'QLPageScroll', :path => '../'
+
+  target 'QLPageScroll_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end

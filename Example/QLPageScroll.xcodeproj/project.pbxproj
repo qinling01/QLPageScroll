@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		381C6653A66260DE0F939F2C /* Pods_QLPageScroll_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QLPageScroll_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EB8917695B4B5C4AF61B6E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		4063460476E57BFEE216A447 /* QLPageScroll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = QLPageScroll.podspec; path = ../QLPageScroll.podspec; sourceTree = "<group>"; };
+		3EB8917695B4B5C4AF61B6E4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4063460476E57BFEE216A447 /* QLPageScroll.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = QLPageScroll.podspec; path = ../QLPageScroll.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		522D2A80511D0C14E24E3D3F /* Pods-QLPageScroll_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLPageScroll_Example.debug.xcconfig"; path = "Target Support Files/Pods-QLPageScroll_Example/Pods-QLPageScroll_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* QLPageScroll_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QLPageScroll_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		607FACE51AFB9204008FA782 /* QLPageScroll_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QLPageScroll_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8B3B9B4B0063886C3229008D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8B3B9B4B0063886C3229008D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C3360BF2BD441284FFD4A009 /* Pods-QLPageScroll_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLPageScroll_Tests.debug.xcconfig"; path = "Target Support Files/Pods-QLPageScroll_Tests/Pods-QLPageScroll_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC359BB331B008D6C8844520 /* Pods-QLPageScroll_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QLPageScroll_Tests.release.xcconfig"; path = "Target Support Files/Pods-QLPageScroll_Tests/Pods-QLPageScroll_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D78C68F05CBD9D048F1E7BA7 /* Pods_QLPageScroll_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QLPageScroll_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -77,7 +77,6 @@
 				C3360BF2BD441284FFD4A009 /* Pods-QLPageScroll_Tests.debug.xcconfig */,
 				CC359BB331B008D6C8844520 /* Pods-QLPageScroll_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -214,10 +213,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z6CH2ANJK4;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = Z6CH2ANJK4;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -228,6 +229,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -497,6 +499,7 @@
 			baseConfigurationReference = 522D2A80511D0C14E24E3D3F /* Pods-QLPageScroll_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6CH2ANJK4;
 				INFOPLIST_FILE = QLPageScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -512,6 +515,7 @@
 			baseConfigurationReference = DD1DC85D7D34A2F5E790A853 /* Pods-QLPageScroll_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z6CH2ANJK4;
 				INFOPLIST_FILE = QLPageScroll/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -526,6 +530,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3360BF2BD441284FFD4A009 /* Pods-QLPageScroll_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z6CH2ANJK4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -548,6 +553,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC359BB331B008D6C8844520 /* Pods-QLPageScroll_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = Z6CH2ANJK4;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 					"$(inherited)",

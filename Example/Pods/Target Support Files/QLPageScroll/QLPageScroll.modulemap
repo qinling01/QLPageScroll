@@ -1,0 +1,6 @@
+framework module QLPageScroll {
+  umbrella header "QLPageScroll-umbrella.h"
+
+  export *
+  module * { export * }
+}

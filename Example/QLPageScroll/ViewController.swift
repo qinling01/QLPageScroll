@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import QLPageScroll
 
 class ViewController: UIViewController {
 

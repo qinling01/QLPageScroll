@@ -4,15 +4,19 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - QLPageScroll (0.1.0)
+  - QLPageScroll (0.2.0):
+    - SnapKit
+  - SnapKit (4.2.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
   - QLPageScroll (from `../`)
+  - SnapKit
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - FBSnapshotTestCase
+    - SnapKit
 
 EXTERNAL SOURCES:
   QLPageScroll:
@@ -20,8 +24,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  QLPageScroll: 5a80c782cc4dfa25495f5cb44fc796b30404dbd1
+  QLPageScroll: f779779d661ae74ec9d3797b26510c22362e8e34
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
 
-PODFILE CHECKSUM: efafd50f31baf250924fe6af85d6656d1d0cf8c1
+PODFILE CHECKSUM: 98390c94e000f285543dc4a862e6b5ff5dc20125
 
 COCOAPODS: 1.7.1

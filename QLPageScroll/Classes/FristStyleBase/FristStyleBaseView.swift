@@ -129,8 +129,6 @@ class FristStyleView: UIView {
             make.height.equalTo(navHeight-SafeAreaNavHeightTop)
         }
         
-        switching.backgroundColor = UIColor.red
-        
         lined = self.establishLine(CGRect.zero)
         self.addSubview(lined)
         lined.snp.makeConstraints { (make) in
@@ -181,20 +179,9 @@ class FristStyleView: UIView {
     private func establishLine(_ frame:CGRect = CGRect.zero) -> UIImageView {
         let imgview = UIImageView.init(frame: frame)
         imgview.alpha = 0.5
-//        let name = "QLPageScrollImg.bundle/" + "lineh"
-        imgview.image = fileForResource("lineh")
+        imgview.image = UIImage(named: "lineh", in: BundleUtil.getCurrentBundle(), compatibleWith: nil)
         return imgview
     }
-    
-    func fileForResource(_ name: String) -> UIImage? {
-        if let bundleURL = Bundle.main.path(forResource: "QLPageScrollImg", ofType: "bundle") {
-            let bundle = Bundle.init(path: bundleURL)
-            let img = UIImage.init(named: name, in: bundle, compatibleWith: nil)
-            return img
-        }
-        return nil
-    }
-    
     
     /// 开始拖动
     ///

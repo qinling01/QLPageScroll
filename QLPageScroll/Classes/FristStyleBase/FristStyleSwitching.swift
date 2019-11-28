@@ -129,8 +129,6 @@ class FristStyleSwitching: UIView {
     
     ///点击刷新布局
     private func updateUI(index: Int) {
-        printL(".....",index)
-        print("..555.....",index)
         if index == self.select_index {
             return;
         }

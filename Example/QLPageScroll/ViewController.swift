@@ -32,14 +32,14 @@ class ViewController: UIViewController {
     /// 办事
     private lazy var workOview: UIView = {
         let work = UIView()
-        work.backgroundColor = UIColor.red
+        work.backgroundColor = UIColor.white
         return work
     }()
     
     /// 资讯
     private lazy var informationTview: UIView = {
         let tableT = UIView()
-        tableT.backgroundColor = UIColor.blue
+        tableT.backgroundColor = UIColor.white
         return tableT
     }()
 

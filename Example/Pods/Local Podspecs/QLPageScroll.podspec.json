@@ -20,6 +20,11 @@
     "ios": "8.0"
   },
   "source_files": "QLPageScroll/Classes/**/*",
+  "resource_bundles": {
+    "QLPageScrollImg": [
+      "QLPageScroll/Assets/*"
+    ]
+  },
   "dependencies": {
     "SnapKit": [
 

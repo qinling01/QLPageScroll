@@ -34,10 +34,11 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QLPageScroll/Classes/**/*'
   
+  s.resource = ['QLPageScroll/Assets/*']
   #资源文件加载
-  s.resource_bundles = {
-     'QLPageScrollImg' => ['QLPageScroll/Assets/*']
-   }
+#  s.resource_bundles = {
+#     'QLPageScrollImg' => ['QLPageScroll/Assets/*']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
